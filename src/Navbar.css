@@ -1,0 +1,18 @@
+.navbar-container {
+    background-color: #cce7ff; /* Match the light blue background color */
+  }
+  
+  .navbar-logo {
+    height: 40px; /* Adjust as needed */
+  }
+  
+  .nav-link {
+    color: #000; /* Black text color */
+    font-weight: bold; /* Bold text */
+    margin: 0 10px;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Blue on hover */
+  }
+  

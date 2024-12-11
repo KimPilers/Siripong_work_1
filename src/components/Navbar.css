@@ -1,0 +1,18 @@
+.navbar-container {
+    background-color: #cce7ff;
+  }
+  
+  .navbar-logo {
+    height: 40px;
+  }
+  
+  .nav-link {
+    color: #000;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
