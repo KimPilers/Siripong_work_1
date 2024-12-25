@@ -1,19 +1,18 @@
 .carousel-container {
-    max-width: 100%; /* Ensures the carousel does not exceed the viewport width */
-    overflow: hidden; /* Prevents content overflow */
-    margin: 0 auto; /* Centers the carousel container horizontally */
-    text-align: center; /* Centers the carousel content */
-  }
-  
-  .carousel-inner {
-    display: flex; /* Aligns items within the container */
-    justify-content: center; /* Centers the images horizontally */
-    align-items: center; /* Centers the images vertically */
-  }
-  
-  .carousel-inner img {
-    max-width: 100%; /* Prevents the image from exceeding the container width */
-    height: 600px; /* Set the height to your desired value */
-    object-fit: cover; /* Ensures the image fills its container without distortion */
-  }
-  
+  max-width: 100%; /* Ensures the carousel does not exceed the viewport width */
+  overflow: hidden; /* Prevents content overflow */
+  margin: 0 auto; /* Centers the carousel container horizontally */
+  text-align: center; /* Centers the carousel content */
+}
+
+.carousel-inner {
+  display: flex; /* Aligns items within the container */
+  justify-content: space-evenly; /* Centers the images horizontally */
+  align-items: center; /* Centers the images vertically */
+}
+
+.carousel-inner img {
+  max-width: 100%; /* Prevents the image from exceeding the container width */
+  height: 600px; /* Set the height to your desired value */
+  object-fit: cover; /* Ensures the image fills its container without distortion */
+}
