@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
@@ -7,22 +8,22 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           {/* Logo */}
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img src="/img/logo.png" alt="We Briza Logo" className="navbar-logo" />
-          </a>
+          </Link>
 
           {/* Menu */}
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <Link className="nav-link active" to="/">
                   หน้าแรก
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/rooms">
                   ห้องพัก
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
